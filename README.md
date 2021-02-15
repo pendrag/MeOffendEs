@@ -2,7 +2,7 @@
 
 This repository contains the data for the MeOffendEs@IberLEF task. All zip files are password-protected. Access to data will be granted to participants of [MeOffendEs](https://competitions.codalab.org/competitions/28679) workshop at IberLEF 2021. 
 
-The folder `scorers` contains the program for evaluating each dataset as used by Codalab competition.
+The folder `scorers` contains the programs for evaluating each dataset as used by Codalab competition.
 
 ## OffendEs subset corpus
 
