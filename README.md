@@ -9,7 +9,9 @@ The folder `scorers` contains the programs for evaluating each dataset as used b
 - Development data (trial data): File **offendes-devdata.zip** (100 samples)
   * devdata1.tsv --> `comment_id, comment`
   * devdata2.tsv --> `comment_id, comment, label, influencer, influencer_gender, media`
-  * devgold.tsv --> `comment_id, label, confidence`
+  * devgold.tsv --> `comment_id, label, confidence_list`
+  
+  `confidence_list` is a list with four probability values (the sum up 1.0), one per each possible label in this order: `[NO_prob, NOM_prob, OFP_prob, OFG_prob]`
 
 - Train data: File **offendes-traindata.zip** (16,710 samples)
   * traindata1.tsv --> `comment_id, comment, label`
