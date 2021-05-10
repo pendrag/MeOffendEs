@@ -29,11 +29,16 @@ The folder `scorers` contains the programs for evaluating each dataset as used b
   * mx-trial-vulgarity-label.csv  --> `Vulgarity label for each sample in mx-trial-data.csv, this information will be only available for trial and training data`
   * mx-trial-outputs.sol --> `ground truth labels for samples in mx-trial-data.csv`
 
-- Training data: File **mx-traindata.zip** (76 samples)
+- Training data: File **mx-traindata.zip** (5060 samples)
   * mx-train-data-non-contextual.csv --> `tweets without contextual information, each row in this file is associated to a sample in the dataset, the first row (headers) should be discarded`
   *  mx-train-data-contextual.csv --> `tweets including contextual information, each row in this file is associated to a sample in the dataset, the first row (headers) should be discarded`
   * mx-train-names-csv  --> `Description of the information (columns) in mx-train-data-non-contextual.csv`
   * mx-train-vulgarity-label.csv  --> `Vulgarity label for each sample in the data files mx-train-data-contextual.csv and mx-train-data-non-contextual.csv, this information will be only available for trial and training data`
   * mx-train-outputs.sol --> `ground truth labels for samples in mx-train-data-contextual.csv and mx-train-data-non-contextual.csv`
+
+- Test data: File **mx-ttest-data.zip** (2183 samples)
+  * mx-test-data-non-contextual.csv --> `tweets without contextual information for the test set, each row in this file is associated to a sample in the dataset, the first row (headers) should be discarded`
+  *  mx-test-data-contextual.csv --> `tweets including contextual information for the test set, each row in this file is associated to a sample in the dataset, the first row (headers) should be discarded`
+  * mx-test-names-csv  --> `Description of the information (columns) in mx-test-data-non-contextual.csv`
 
 
